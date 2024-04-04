@@ -2,7 +2,7 @@ import { FaGoogle, FaGithub, FaFacebook, FaTwitter, FaInstagram } from "react-ic
 import qZone1 from '../../../assets/qZone1.png'
 import qZone2 from '../../../assets/qZone2.png'
 import qZone3 from '../../../assets/qZone3.png'
-
+import background from '../../../assets/bg.png'
 
 const RightSideNav = () => {
     return (
@@ -41,6 +41,11 @@ const RightSideNav = () => {
                 <img src={qZone1} alt="" />
                 <img src={qZone2} alt="" />
                 <img src={qZone3} alt="" />
+            </div>
+            <div className="my-5 text-center space-y-4" style={{backgroundImage: 'url(../../../assets/bg.png)'}}>
+                <h2 className="text-3xl font-bold px-7">Create an Amazing Newspaper</h2>
+                <p>Discover thousands of options, easy to customize layouts, one-click to import demo and much more.</p>
+                <button className="bg-[#D72050] p-5 text-xl text-white font-semibold">Learn More</button>
             </div>
         </div>
     );
