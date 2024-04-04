@@ -2,7 +2,7 @@ import { FaGoogle, FaGithub, FaFacebook, FaTwitter, FaInstagram } from "react-ic
 import qZone1 from '../../../assets/qZone1.png'
 import qZone2 from '../../../assets/qZone2.png'
 import qZone3 from '../../../assets/qZone3.png'
-import background from '../../../assets/bg.png'
+// import background from '../../../assets/bg.png'
 
 const RightSideNav = () => {
     return (
